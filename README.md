@@ -1,6 +1,7 @@
 # EasyToast
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=16)
+
 An Android library that takes the standard Android Toast to the next level with built-in icons from font-awesome and many styling options that gives your app and user experience an extra awesome feeling!
 
 
@@ -41,7 +42,7 @@ An Android library that takes the standard Android Toast to the next level with 
     <td>
       <center>
         Confusing Toast</br>
-      <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/confusing.png" width="250">
+      <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/confuse.png" width="250">
       </center>
     </td>
   </tr>
@@ -74,35 +75,35 @@ dependencies {
 
 Each method always returns a `Toast` object, so you can customize the Toast much more. **DON'T FORGET THE `show()` METHOD!**
 
-**To display an default Toast:**
+**To display the default Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,FancyToast.DEFAULT,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.DEFAULT,true);
 ```
 **To display a success Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,FancyToast.SUCCESS,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.SUCCESS,true);
 ```
 **To display an info Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,FancyToast.INFO,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.INFO,true);
 ```
 **To display a warning Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,FancyToast.WARNING,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.WARNING,true);
 ```
 **To display the error Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,FancyToast.ERROR,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.ERROR,true);
 ```
 **To display the confusing Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,FancyToast.CONFUSING,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.CONFUSING,true);
 ```
 **You can also remove the android icon on top-right corner by passing last parameter false.**
 ``` java
