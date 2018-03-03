@@ -1,9 +1,11 @@
 # EasyToast
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=16)
+[![](https://jitpack.io/v/naseemali925/EasyToast.svg)](https://jitpack.io/#naseemali925/EasyToast)
 
 An Android library that takes the standard Android Toast to the next level with built-in icons from font-awesome and many styling options that gives your app and user experience an extra awesome feeling!
 
+## Looks Amazing
 
 <table>
   <tr>
@@ -69,7 +71,6 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 dependencies {
 	...
 	compile 'com.github.naseemali925:EasyToast:0.0.1'
-}
 ```
 ## Usage
 
