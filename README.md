@@ -16,13 +16,13 @@ An Android library that takes the standard Android Toast to the next level with 
     </td>
     <td>
       <center>
-        Info Toast</br>
+	      <b>Info Toast</b></br>
       <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/info.png" width="250">
       </center>
     </td>
     <td>
       <center>
-        Error Toast</br>
+	      <b>Error Toast</b></br>
       <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/error.png" width="250">
       </center>
     </td>
@@ -30,19 +30,19 @@ An Android library that takes the standard Android Toast to the next level with 
   <tr>
     <td>
       <center>
-        Warning Toast</br>
+	      <b>Warning Toast</b></br>
       <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/warning.png" width="250">
       </center>
     </td>
     <td>
       <center>
-        Default Toast</br>
+	      <b>Default Toast</b></br>
       <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/default.png" width="250">
       </center>
     </td>
     <td>
       <center>
-        Confusing Toast</br>
+	      <b>Confusing Toast</b></br>
       <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/confuse.png" width="250">
       </center>
     </td>
