@@ -5,12 +5,12 @@
 
 An Android library that takes the standard Android Toast to the next level with built-in icons from font-awesome and many styling options that gives your app and user experience an extra awesome feeling!
 
-**Screens**
+
 <table>
   <tr>
     <td>
       <center>
-        Success Toast</br>
+	      <b>Success Toast</b></br>
       <img src="https://raw.githubusercontent.com/naseemali925/EasyToast/master/images/success.png" width="250">
       </center>
     </td>
