@@ -78,36 +78,36 @@ Each method always returns a `Toast` object, so you can customize the Toast much
 **To display the default Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.DEFAULT,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.DEFAULT);
 ```
 **To display a success Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.SUCCESS,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.SUCCESS);
 ```
 **To display an info Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.INFO,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.INFO);
 ```
 **To display a warning Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.WARNING,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.WARNING);
 ```
 **To display the error Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.ERROR,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.ERROR);
 ```
 **To display the confusing Toast:**
 
 ``` java
-EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.CONFUSING,true);
+EasyToast.makeText(this,"Hello World !",EasyToast.LENGTH_LONG,EasyToast.CONFUSING);
 ```
 **You can also remove the android icon on top-right corner by passing last parameter false.**
 ``` java
-EasyToast.makeText(yourContext, "I'm a Toast", duration, type, boolen value).show();
+EasyToast.makeText(this, "I'm an EasyToast", EasyToast.LENGTH_LONG, EasyToast.INFO, false).show();
 ```
 
 ## With The Builder Pattern
@@ -116,12 +116,12 @@ EasyToast.makeText(yourContext, "I'm a Toast", duration, type, boolen value).sho
 	EasyToast easyToast=new ToastBuilder(this)
                 .textSize(16)
                 .textColor(Color.WHITE)
+		.type(EasyToast.SUCCESS)
                 .showTopIcon(true)
                 .leftIcon(FA.FA_CHECK)
                 .typeface(someTypeface)
                 .topIcon(FA.FA_ANGELLIST)
                 .text("That's An Easy Toast")
-                .type(EasyToast.SUCCESS)
                 .build();
         easyToast.show();
 ```
@@ -140,10 +140,10 @@ Use The **FA** Class To Access And Use The Icon
   //Or Use A Drawable
   EasyToast easyToast=new ToastBuilder(this)
                 .textColor(Color.WHITE)
+		.type(EasyToast.SUCCESS)
                 .leftIcon(R.drawable.some_drawable)
                 .topIcon(R.drawable.some_drawable)
                 .text("That's An Easy Toast")
-                .type(EasyToast.SUCCESS)
                 .build();
         easyToast.show();
 ```
