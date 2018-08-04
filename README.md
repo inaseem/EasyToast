@@ -71,7 +71,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	compile 'com.github.naseemali925:EasyToast:0.0.1'
+	implementation 'com.github.naseemali925:EasyToast:0.0.1'
 ```
 ## Usage
 
